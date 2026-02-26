@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ZX-calculus Software</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/intro.css">
+</head>
+
+<body>
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/intro.html">Tutorial</a></li>
+        <li><a href="/publications.html">Publications</a></li>
+        <li><a href="/zxseminar.html">The ZX Seminar</a></li>
+        <li><a href="/accessibility.html">Accessibility</a></li>
+        <li><a href="/map.html">Map</a></li>
+        <li><a href="/software.html">Software</a></li>
+        <li><a href="/pyzx.html">PyZX Demo</a></li>
+    </ul>
+</nav>
+<main>
+    <div class="contentGrid" style="grid-template-columns: 1fr;">
+        <div class="row cell title shaded">
+            <h1>Software</h1>
+        </div>
+        <div class="row cell">
+            <p>
+                There are a number of software tools available for working with ZX-diagrams,
+                ranging from interactive graphical editors to programmatic libraries for
+                automated simplification and circuit optimisation.
+            </p>
+        </div>
+        <div class="row cell">
+            <h3>ZX Sketch</h3>
+            <p>
+                <a href="https://zxsketch.com">ZX Sketch</a> is a free, browser-based ZX-calculus diagram editor.
+                It provides an interactive canvas for drawing ZX-diagrams, applying rewrite rules,
+                and constructing step-by-step proofs — all directly in your browser with no installation required.
+            </p>
+            <p>
+                Features include 19 built-in rewrite rules, 18 simplification strategies,
+                a proof construction mode, and export to TikZ, SVG, PNG, and OpenQASM formats.
+            </p>
+            <p>
+                <a href="https://zxsketch.com">
+                    <img src="images/zxsketch-screenshot.png"
+                         alt="Screenshot of ZX Sketch, showing a ZX-diagram being edited in the browser"
+                         style="max-width: 600px; width: 100%; border: 1px solid #CCC;">
+                </a>
+            </p>
+            <p>
+                <a href="https://zxsketch.com">Try ZX Sketch in your browser</a>
+                &nbsp;|&nbsp;
+                <a href="./zxsketch.html">Learn more</a>
+                &nbsp;|&nbsp;
+                <a href="https://github.com/hstoltz/ZX-sketch">GitHub</a>
+            </p>
+        </div>
+        <div class="row cell">
+            <h3>PyZX</h3>
+            <p>
+                <a href="https://github.com/Quantomatic/pyzx">PyZX</a> is a Python library for
+                automatically simplifying ZX-diagrams and optimising quantum circuits,
+                written by a team at Radboud University.
+                It implements state-of-the-art T-count reduction and circuit optimisation procedures.
+            </p>
+            <p>
+                You can try PyZX directly in your browser using the
+                <a href="./pyzx.html">in-browser demo</a>, which demonstrates the
+                T-count optimising procedure presented in
+                <a href="https://arxiv.org/abs/1903.10477">this paper</a>.
+            </p>
+            <p>
+                <a href="https://github.com/Quantomatic/pyzx">GitHub</a>
+                &nbsp;|&nbsp;
+                <a href="./pyzx.html">In-browser demo</a>
+            </p>
+        </div>
+        <div class="row cell">
+            <h3>TikZiT</h3>
+            <p>
+                <a href="https://tikzit.github.io/">TikZiT</a> is a graphical user interface for
+                creating TikZ diagrams. Many papers that use ZX-diagrams use TikZiT to produce
+                publication-quality figures.
+            </p>
+            <p>
+                <a href="https://tikzit.github.io/">Website</a>
+                &nbsp;|&nbsp;
+                <a href="https://github.com/tikzit/tikzit">GitHub</a>
+            </p>
+        </div>
+    </div>
+</main>
+<footer>
+    <p class="subtle">
+        Website by <a href="https://hjmb.co.uk">Hector Miller-Bakewell</a>
+        and <a href="https://vdwetering.name">John van de Wetering</a>,
+        with thanks to
+        <a href="https://quantum.univ-grenoble-alpes.fr/fostering-the-ecosystem/our-chairs-of-excellence/quantum-computing/horsman-dominic-734445.htm">
+            Dom Horsman
+        </a>
+        and Richard East
+    </p>
+</footer>
+</body>
+
+</html>
